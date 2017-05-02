@@ -1,0 +1,14 @@
+{
+  "name" : "deBray-Carpenter-Portfolio",
+  "version" : "1.0.0",
+  "description" : "DeBray Carpenter's Portfolio App",
+  "license" : "MIT",
+  "author" : "DeBray Carpenter",
+  "repository" : "https://github.com/debrayc/debraycarpenter.git",
+  "devDependencies" :{
+    "express" : "latest"
+  },
+  "engines" :{
+    "node" : "latest"
+  }
+}
