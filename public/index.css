@@ -1,0 +1,65 @@
+body {
+  background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/18278366_1174950295964298_1706378734311715442_o.jpg?oh=f582f32219c0139dd52ecca1e96b6a79&oe=59B844C8");
+  background-color: black;
+  background-attachment: fixed;
+}
+.nav-buttons {
+  z-index: 5;
+  position: fixed;
+}
+.nav-buttons ul {
+  padding-top: .5%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  background-color: black;
+  width: 100%;
+  padding: 0;
+  top: 1%;
+  position: fixed;
+}
+.nav-buttons a {
+  color : rgb(0, 255, 0);
+  font-size: 24px;
+  text-decoration: none;
+}
+.spacer-div {
+  height: 450px;
+  z-index: 0;
+  position: fixed;
+}
+#main-body {
+  margin-top: 60%;
+  background-color: black;
+  color: rgb(0, 255, 0);
+  opacity: .8;
+  width: 100%;
+  z-index: 0;
+  padding: 1%;
+}
+#main-body h1 {
+  text-align: center;
+}
+.images {
+  background-color: rgb(0, 255, 0);
+  z-index: 0;
+  margin-top: 60%;
+}
+
+.github img {
+  height: 10%;
+  width: auto;
+  z-index: 1;
+}
+.linkedin img {
+  height: 10%;
+  width: auto;
+  z-index: 1;
+}
+.footer {
+  color: rgb(0, 255, 0);
+  background-color: black;
+  text-align: center;
+}
