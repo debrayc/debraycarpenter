@@ -89,3 +89,9 @@ body {
   background-color: black;
   text-align: center;
 }
+.btn-group {
+  color: rgb(0, 255, 0);
+  background-color: black;
+  position: static;
+  top: 1%;
+}
