@@ -22,6 +22,7 @@ app.get('http://ifaacademy.eu/wp-content/uploads/2015/12/linkedin-logo-600x612.p
   res.sendFile('http://ifaacademy.eu/wp-content/uploads/2015/12/linkedin-logo-600x612.png')
 })
 
-app.listen(3000, function() {
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
   console.log();
 });
