@@ -5,9 +5,6 @@
   "license": "MIT",
   "author": "DeBray Carpenter",
   "repository": "https://github.com/debrayc/debraycarpenter.git",
-  "devDependencies": {
-    "express": "latest"
-  },
   "engines": {
     "node": "7.7.4"
   },
